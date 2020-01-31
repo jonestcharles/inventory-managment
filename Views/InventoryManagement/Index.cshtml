@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2>Dashboard</h2>
+
+<p>Please select from the links to manage your inventory.</p>
+
+<ul class="list-group">
+    <li class="list-group-item">
+        <a asp-controller="Products" asp-action="Index">Products</a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="Bins" asp-action="Index">Bins</a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="Inventories" asp-action="Index">Inventory</a>
+    </li>
+    <li class="list-group-item">
+        <a asp-controller="Orders" asp-action="Index">Orders</a>
+    </li>
+</ul>
